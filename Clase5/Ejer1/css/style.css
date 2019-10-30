@@ -1,0 +1,36 @@
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+fieldset{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    width: 50%;
+    background: rgb(232, 232, 233);
+}
+.rbStyle{
+    padding: 5px;
+}
+
+
+form, input{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   
+}
+
+
+input[type=radio] {
+    width: 50%;
+    padding: 5px;
+    margin-left: 10px;
+  }

@@ -1,0 +1,15 @@
+#galeria{
+    max-width: 650px;
+}
+img{
+    margin: 10px;
+    /*position: relative;*/
+    float: left;
+    border: .5px solid grey;
+    padding: 5px;   
+    
+}
+
+/*.clear{
+    clear: both;
+}*/

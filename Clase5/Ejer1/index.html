@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ejercicio Clase 4</title>
+</head>
+<body>
+    <h1>Ejercicio 1</h1>
+    <hr>
+
+    
+    <form action="" method="get">
+        <fieldset class="fsDatos">
+            <legend class="titulo2">Datos Personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese su e-mail">
+            <br>
+            <label for="clave">Ingrese su clave:</label>
+            <input type="password" name="clave" id="clave" maxlength="8" pattern=".{8,}">
+            <br>
+
+            <label for="genero" class="rbStyle">Genero<br/>
+                    <label for="genero">Femenino
+                        <input type="radio" name="genero" id="generoF" value="F"/>
+                    </label>
+                    <br>
+                    <label for="genero">Masculino    
+                        <input type="radio" name="genero" id="generoM" value="M"/>
+                    </label>
+            </label>
+            <br>
+            <label for="fecNac">Ingrese su fecha de Nacimiento</label>
+            <input type="date" name="fecNac" id="fecNac">
+            <br>
+            <br>
+            <label for="ingreso">Ingresos mensuales</label>
+            <input type="range" list="ingreso">
+
+                <datalist id="ingreso">
+                    <option value="0" label="0%">
+                    <option value="1000">
+                    <option value="2000">
+                    <option value="3000">
+                    <option value="4000">
+                    <option value="5000" label="50%">
+                    <option value="6000">
+                    <option value="7000">
+                    <option value="8000">
+                    <option value="9000">
+                    <option value="10000" label="100%">
+                </datalist>
+            <br>
+            <input type="submit" name="enviar" value="Enviar">
+        </fieldset>    
+        <hr>
+        <label for="sueldo">Ingrese su sueldo</label>
+        <input type="number" name="sueldo" id="sueldo" minlength="0">
+        <input type="file" name="archivo" id="archivo">
+        <hr>
+        <label for="chkEnviar">Desea enviar?</label>
+        <input type="checkbox" name="chkEnviar" id="chkEnviar" value="enviar">
+        <br>
+        
+        <label for="color">Elija un color</label>
+        <select name="color" id="color">
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="negro">Negro</option>
+        </select>
+        <br>
+        <label for="comentario">Ingrese un comentario:</label>
+        <br>
+        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        <br>
+
+        
+    </form>
+    <hr>
+    
+    
+</body>
+</html>

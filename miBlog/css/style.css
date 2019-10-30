@@ -1,0 +1,43 @@
+.titulo1{
+    font: 15px 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.nav{
+    max-width: 100%;
+    font: 15px 'Roboto', sans-serif;    
+    padding: 5px;
+    background-color: rgb(220, 228, 228);
+    margin: 10px;
+    
+}
+
+.lkCabecera{
+    float: right;
+    padding: 5px;
+    text-decoration: none; 
+    border-right: 1px solid rgb(92, 25, 25);
+}
+
+.container{
+    font: 12px 'Roboto', sans-serif; 
+    margin: 5px;
+    padding: 5px;
+}
+
+.imgArt{
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    border: 0.5px solid rgb(163, 158, 158);
+}
+
+.datos{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+hr{
+    clear: both;
+}

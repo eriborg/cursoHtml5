@@ -1,0 +1,103 @@
+.container{
+    font-family: 'Roboto', sans-serif;    
+    padding: 5px;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 25%;
+    
+}
+body{
+    background: salmon;
+}
+
+
+.container>span{
+    font-family: 16px 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 5px;
+    margin-left: 30%;     
+}
+fieldset{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+fieldset legend{
+    color: yellow;
+    padding: 5px;
+}
+
+
+label{
+    display: block;
+    padding: 5px;
+}
+
+fieldset div{
+    display: none;
+}
+
+label:hover div{
+    display: inline-block;
+}
+
+input[type=text], input[type=email], input[type=number]{
+    border: none;
+    border-bottom: 1px solid rgb(147, 164, 180);
+    background: salmon;
+    width: 100%;
+    height: 30px;
+  }
+
+  input:focus:invalid {
+    background-color:rgb(153, 63, 63);
+    
+  }
+
+  input:focus:valid {
+    background-color:rgb(56, 211, 115);
+  }
+
+  select{
+      background-color: salmon;
+      width: 100%;
+      height: 30px;
+      letter-spacing: 1px;
+      padding: 5px;
+  }
+
+  select option{
+      height: 50px;
+      font-size: 15px;
+      color: #222121;
+      padding: 8px 16px;
+
+  }
+
+  select:focus{
+    color: #6b1111;
+}
+
+.botones{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.botones>input{
+    width: 48%;
+    height: 50px;
+    display: inline-block;
+    background: rgb(119, 114, 114);
+    border: none;
+    color: blue;
+    
+}
+
+

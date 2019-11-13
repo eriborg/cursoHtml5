@@ -1,0 +1,39 @@
+p:not(.nota)::first-letter{
+    font-size: 200%;
+    color: #8A2BE2;
+    text-transform: uppercase;
+}
+
+h1::before{
+    content: "Esto es ";
+    color: blue;
+}
+
+h2::after{
+    content: " un after";
+    color: brown;
+}
+
+input::-webkit-input-placeholder{
+    background-color: rgb(31, 30, 30);
+    color: orangered;
+    
+}
+
+p::selection {
+    background-color:rgb(31, 30, 30);
+    color: orangered;
+}
+
+.nota{
+    text-align: left;
+    margin-left: 50px;
+    width: 70%;
+    display: list-item;
+    counter-increment: note-counter;
+  }
+
+.nota::marker{
+    content: "Note " counter(note-counter) ":";
+    text-align: left;
+  }

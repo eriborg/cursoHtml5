@@ -1,0 +1,10 @@
+.alert-primary {
+    color: hsl(108, 100%, 26%);
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+#carouselExampleIndicators{
+    width: 40%;
+    margin: 5px auto;
+}

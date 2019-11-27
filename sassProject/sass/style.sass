@@ -1,0 +1,49 @@
+@import "color"
+@import "font"
+@import "../node_modules/bootstrap/scss/bootstrap"
+
+@mixin fondo
+    font: $fuente-fondo
+    color: $color-letra
+    background: $color-fondo
+    margin-left: 10px    
+
+@mixin titulo
+    font: $fuente-titulo
+    color: $color-primario
+    font-weight: 800
+        
+.titulo
+    @include titulo
+    text-align: center
+
+.titulo-rojo
+    @extend .titulo
+    background: $color-fondo-rojo    
+
+.fondo
+    @include fondo
+    max-width: 50%
+    padding: 10px
+    margin: 10px auto
+    
+
+a
+    color: color-link
+    margin: 10px auto
+    padding: 15px
+    font: $fuente-link
+    text-decoration: none
+    text-align: left
+    &:visited
+        color: $color-link-visited
+    &:hover
+        color: $color-link-hover
+    &:active
+        color: $color-link-active
+    
+
+
+    
+
+

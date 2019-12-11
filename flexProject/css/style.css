@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
 }
@@ -21,26 +22,7 @@ body{
     padding-top: 20px;    
 }
 
-.container-nav{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;    
-    background: #2b9fc5;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: sans-serif;
-    list-style-type: none;    
-    text-align: center;
-}
-.container-nav-men{    
-    text-align: center;
-    vertical-align: middle;
-    flex-basis: 20px;
-    align-self: stretch;
-    margin: 10px;
-    padding: 5px;    
-    
-}
+
 
 .grid-container{
     display: grid;

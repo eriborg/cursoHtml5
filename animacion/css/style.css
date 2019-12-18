@@ -1,0 +1,39 @@
+.gota{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#dc143c, #800080);
+    border-radius:  50%;
+    animation-name: caerGota;
+    animation-duration: 5s;    
+    animation-timing-function: ease-in;
+}
+
+@keyframes caerGota{
+    0%{
+        margin-top: 30px;
+        transform: rotate(45deg);
+        border-radius:  5% 50% 50% 50%;
+    }
+    25%{
+        transform: rotate(45deg);
+        border-radius:  10% 50% 50% 50%;
+    }
+    50%{
+        transform: rotate(45deg);
+        border-radius:  10% 50% 50% 50%;
+    }
+    75%{
+        margin-top: 500px;
+        transform: rotate(50deg);
+        width: 140px;
+        height: 130px;
+        border-radius: 50%;
+    }
+    100%{
+        margin-top: 30px;        
+        border-radius:  50%;
+        width: 150px;
+        height: 150px;
+
+    }
+}
